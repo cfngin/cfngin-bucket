@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "davidanson.vscode-markdownlint",
+        "mohsen1.prettify-json",
+        "richie5um2.vscode-sort-json",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}

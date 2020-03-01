@@ -1,0 +1,18 @@
+{
+    "cSpell.words": [
+        "Naturalclar",
+        "cfngin",
+        "deepakputhraya"
+    ],
+    "editor.insertSpaces": true,
+    "editor.rulers": [
+        79,
+        100,
+        120
+    ],
+    "editor.tabSize": 2,
+    "editor.trimAutoWhitespace": true,
+    "editor.useTabStops": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true
+}
