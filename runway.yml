@@ -1,0 +1,8 @@
+deployments:
+  - modules:
+      - path: cfngin_bucket
+        type: cloudformation
+        parameters:
+          namespace: finley-lab-test
+    regions:
+      - us-east-1

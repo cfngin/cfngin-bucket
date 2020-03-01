@@ -1,0 +1,8 @@
+namespace: ${namespace}
+cfngin_bucket: ''
+
+sys_path: ./
+
+stacks:
+  cfngin-bucket:
+    class_path: blueprints.cfngin_bucket.BlueprintClass
