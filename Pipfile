@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+# Linting
+flake8 = "~=3.7"
+isort = "~=4.3"
+mypy = "~=0.761"
+pylint = "~=2.4"
+# Tests
+pytest = '~=5.3'
+# Documentation
+Sphinx = "~=2.4"
+sphinx_rtd_theme = "~=0.4.2"
+pygments = "~=2.5"
+sphinxcontrib-apidoc = "==0.3.0"
+
+[packages]
+runway = "~=1.4.4"
+
+[requires]
+python_version = "3"
