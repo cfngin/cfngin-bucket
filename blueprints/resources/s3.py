@@ -6,9 +6,9 @@ from troposphere import Output, Tags, Template, s3
 
 
 class CFNginBucket(s3.Bucket):
-    """S3 Bucket used for CFNgin cacheing.
+    """S3 Bucket used for CFNgin caching.
 
-    VARIABLES
+    Variables
     ---------
 
     **BucketName (Optional[str])**
