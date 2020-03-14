@@ -31,7 +31,7 @@ deployments:
 - **BucketName (Optional[str]):** Name to use for the S3 Bucket. If not provided, the name will be `<stack-name>-<region>`. (*default:* `None`)
 - **KMSMasterKeyID (Optional[str]):** Key ID or ARN for a KMS key to use for [ServerSideEncryptionByDefault]. If not provided, the default S3 service key will be used. (*default:* `None`)
 - **namespace (str):** [CFNgin namespace] used to prefix the stack name and default resource names.
-- **Tags (Dict[str, str]):** Mapping for {tag-key: tag-value} for the Bucket. (*default:* `{}`)
+- **Tags (Dict[str, str]):** Mapping of {tag-key: tag-value} for the Bucket. (*default:* `{}`)
 
 ## Outputs
 

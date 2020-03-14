@@ -21,7 +21,7 @@ class CFNginBucket(s3.Bucket):
         (`default:` ``None``)
 
     **Tags (Dict[str, str])**
-        Mapping for {tag-key: tag-value} for the Bucket. (`default:` ``{}``)
+        Mapping of {tag-key: tag-value} for the Bucket. (`default:` ``{}``)
 
     .. _ServerSideEncryptionByDefault: https://tinyurl.com/vub9cej
 
