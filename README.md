@@ -1,5 +1,7 @@
 # cfngin-bucket
 
+[![CI/CD](https://github.com/cfngin/cfngin-bucket/workflows/CI/CD/badge.svg)](https://github.com/cfngin/cfngin-bucket/actions?query=workflow%3ACI%2FCD)
+
 Blueprint for creating a CFNgin bucket.
 
 ## Usage
