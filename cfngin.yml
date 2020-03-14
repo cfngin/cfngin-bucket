@@ -1,0 +1,12 @@
+namespace: ${namespace}
+cfngin_bucket: ''
+
+sys_path: ./
+
+stacks:
+  cfngin-bucket:
+    class_path: blueprints.cfngin_bucket.BlueprintClass
+    variables:
+      BucketName: ${default BucketName::}
+      KMSMasterKeyID: ${default KMSMasterKeyID::}
+      Tags: ${Tags}

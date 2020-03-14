@@ -1,0 +1,9 @@
+deployments:
+  - modules:
+      - path: git::git://github.com/cfngin/cfngin-bucket.git?tag=v0.1.0
+        type: cloudformation
+        parameters:
+          namespace: example
+          Tags: {}
+    regions:
+      - us-east-1

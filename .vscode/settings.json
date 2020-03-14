@@ -1,6 +1,18 @@
 {
+    "[python]": {
+        "editor.rulers": [
+            72,
+            79,
+            100,
+            120
+        ],
+        "editor.tabSize": 4
+    },
+    "autoDocstring.docstringFormat": "google",
     "cSpell.words": [
         "Naturalclar",
+        "Ngin",
+        "Ngin's",
         "cfngin",
         "deepakputhraya"
     ],
@@ -14,5 +26,13 @@
     "editor.trimAutoWhitespace": true,
     "editor.useTabStops": true,
     "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "python.formatting.provider": "autopep8",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintArgs": [
+        "--rcfile=setup.cfg"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": ".venv/bin/python"
 }
