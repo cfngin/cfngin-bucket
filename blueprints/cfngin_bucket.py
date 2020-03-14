@@ -2,7 +2,7 @@
 from typing import Any, Dict
 
 from runway.cfngin.blueprints.base import Blueprint
-from troposphere import Template, AWSObject
+from troposphere import AWSObject, Template
 
 from .resources.s3 import CFNginBucket
 

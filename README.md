@@ -2,7 +2,6 @@
 
 Blueprint for creating a CFNgin bucket.
 
-
 ## Usage
 
 ```yaml

@@ -1,9 +1,0 @@
-deployments:
-  - modules:
-      - path: cfngin_bucket
-      # - path: git::git://github.com/cfngin/cfngin-bucket.git//cfngin_bucket?branch=feature/basic-bucket
-        type: cloudformation
-        parameters:
-          namespace: finley-lab-test
-    regions:
-      - us-east-1
