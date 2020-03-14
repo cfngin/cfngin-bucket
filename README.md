@@ -4,6 +4,11 @@
 
 Blueprint for creating a CFNgin bucket.
 
+## Requirements
+
+- python_version >= 3.7
+- runway >= 1.4.4
+
 ## Usage
 
 ```yaml
